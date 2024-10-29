@@ -46,9 +46,9 @@ def capture_images(num_images=5):
 def draw_heart():
     """Draw a heart using Turtle graphics."""
     turtle.speed(0)
-    turtle.bgcolor("white")
+    turtle.bgcolor("black")
     turtle.pensize(2)
-    turtle.color("red")
+    turtle.color("pink")
 
     num_lines = 200
 
@@ -65,7 +65,7 @@ def draw_heart():
 
     turtle.goto(0, -220)
     turtle.pendown()
-    turtle.color("black")
+    turtle.color("pink")
     turtle.write("SEND THE PIC THAT WAS SAVED IN SAME FOLDER", align="center", font=("Arial", 16, "normal"))
     turtle.penup()
 
